@@ -1,0 +1,80 @@
+/* -------FEAUTURE------- */
+
+.feauture {
+    @media screen and (min-width: 480px) {
+    background-color: var(--mobile-background);
+    }
+    @media screen and (min-width: 768px) {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: var(--title-text-color);
+    }
+    @media screen and (min-width: 1200px) {
+        display: flex;
+        flex-direction: row;
+        background-color: var(--title-text-color);        
+    }
+}
+
+.feauture__item {
+    // flex-basis: calc((100% - 90px) /4 );
+    // margin-right: 30px;
+    //     &:last-child {
+    //         margin-right: 0;
+    //     }
+            @media screen and (min-width: 480px) {
+                margin-right: 0px;
+                margin-bottom: 30px;
+                &:last-child {
+                margin-bottom: 0px;
+                }
+            }
+
+            @media screen and (min-width: 768px) {
+            width: 100%;
+            margin-right: 30px;
+            flex-basis: calc((100% - 60px) / 2);
+            &:nth-child(2n) {
+                margin-right: 0px;
+            }
+            &:nth-last-child(-n+2) {
+                margin-bottom: 0px;
+            }
+            }
+            @media screen and (min-width: 1200px) {
+                flex-basis: calc((100% - 90px) / 4 );
+                margin-right: 30px;
+                &:nth-child(2) {
+                    margin-right: 30px;
+                }    
+            }
+}
+
+.feauture__text {
+    line-height: 1.71;
+    color: var(--other-text-color);
+}
+
+.feauture__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+    margin-bottom: 10px;
+    @media screen and (min-width: 480px) {
+        text-align: center;
+    }
+} 
+
+.feauture__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    background-color: var(--button-filter-color);
+    height: 120px;
+    margin-bottom: 30px;
+} 

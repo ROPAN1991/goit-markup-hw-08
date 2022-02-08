@@ -1,0 +1,171 @@
+/* -------FOOTER------- */
+
+.footer {
+    background-color: var(--background-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
+} 
+
+.footer-flex {
+    // display: flex;
+    // align-items: baseline;
+    @media screen and(min-width: 480px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    @media screen and (min-width: 768px) {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: baseline;
+    }
+    @media screen and (min-width: 1200px) {
+        display: flex;
+        margin: 0 auto;
+    }
+}
+
+.left-part-footer {
+    // margin-right: 70px;
+    @media screen and (min-width: 480px) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 60px;
+    }
+    @media screen and(min-width: 768px) {
+        margin-right: 163px;
+        
+    }
+    @media screen and (min-width: 1200px) {
+        margin-right: 70px;
+        margin-bottom: 0px;
+    }
+} 
+
+.invitation {
+    // margin-right: 93px;
+    @media screen and(min-width: 480px) {
+        margin-bottom: 60px;
+    }
+    @media screen and (min-width: 1200px) {
+        margin-right: 93px;
+        margin-bottom: 0px;
+    }
+
+}
+
+.invitation-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+    margin-bottom: 20px;
+    @media screen and (min-width: 480px) {
+        text-align: center;
+    }
+    @media screen and (min-width: 1200px) {
+        text-align: start;
+    }
+}
+
+.invitation-list {
+    display: flex;
+    margin: 0 auto;
+}
+
+.invitation-link {
+    width: 44px;
+    height: 44px;
+    background-color:  rgba(255, 255, 255, 0.1);
+    fill: var(--title-text-color);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: background-color;
+        &:hover, &:focus {
+            background-color: var(--accent-text-color);
+        }
+}
+
+.invitation-item {
+    margin-right: 10px;
+        &:last-child {
+            margin-right: 0px;
+        }
+}
+
+.address-item {
+    margin-bottom: 9px;
+        &:last-child {
+            margin-bottom: 0px;
+        }
+        @media screen and (min-width: 480px) {
+            display: flex;
+            justify-content: center; 
+        }
+        @media screen and (min-width: 1200px) {
+            display: flex;
+            justify-content: flex-start;
+            
+        }
+}
+
+
+
+.footer-logo {
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--title-text-color);
+    margin-bottom: 20px;
+    @media screen and (min-width: 480px) {
+        margin: 0 auto;
+        margin-bottom: 20px;
+        line-height: 1.16;
+    }
+    @media screen and (min-width: 1200px) {
+        margin-left: 0px;
+        
+    }
+}
+
+.footer-color {
+    background-color: var(--background-color);
+}
+
+.footer-accent-color {
+    color: var(--accent-text-color);
+}
+
+.location {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: var(--title-text-color);
+            &:active{
+                color: var(--accent-text-color);
+            }
+}
+
+.footer-contacts {
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: var(--other-text-color);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: color;
+        &:hover, &:focus {
+            color: var(--accent-text-color);
+        }
+}
