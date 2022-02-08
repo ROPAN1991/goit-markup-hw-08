@@ -109,6 +109,15 @@
     text-align: center;
 }
 
+.team__text {
+    font-size: 16px;
+    line-height: 1.18;
+    color: var(--other-text-color);
+    display: block;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
 // .team__image {
 //     @media screen and(min-width: 480px) {
 //         width: 450px;
@@ -123,13 +132,4 @@
 //         height: 260px;
 //     }
 // }
-
-.team__text {
-    font-size: 16px;
-    line-height: 1.18;
-    color: var(--other-text-color);
-    display: block;
-    text-align: center;
-    margin-bottom: 16px;
-}
 
