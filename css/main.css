@@ -878,32 +878,6 @@ a {
 }
 
 /* ---------CLIENTS--------- */
-.clients {
-  margin-left: -30px;
-  margin-bottom: -30px;
-}
-
-@media screen and (min-width: 480px) {
-  .clients {
-    display: flex;
-    flex-wrap: wrap;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .clients {
-    display: flex;
-    flex-wrap: wrap;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .clients {
-    display: flex;
-    flex-wrap: nowrap;
-  }
-}
-
 .clients__link {
   display: flex;
   justify-content: center;
@@ -923,27 +897,29 @@ a {
   border: 1px solid var(--accent-text-color);
 }
 
-.clients__item {
-  height: 92px;
-  margin-bottom: 30px;
-  margin-left: 30px;
+.clients {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-bottom: -30px;
 }
 
-@media screen and (min-width: 480px) {
-  .clients__item {
-    flex-basis: calc(100% / 2 - 30px);
-  }
+.clients__item {
+  height: 92px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  flex-basis: calc((100% - 60px) / 2);
 }
 
 @media screen and (min-width: 768px) {
   .clients__item {
-    flex-basis: calc(100% / 3 - 30px);
+    flex-basis: calc((100% - 90px) / 3);
   }
 }
 
 @media screen and (min-width: 1200px) {
   .clients__item {
-    flex-basis: calc(100% / 4 - 30px);
+    flex-basis: calc((100% - 180px) / 6);
   }
 }
 
@@ -977,10 +953,7 @@ a {
 
 @media screen and (min-width: 480px) {
   .footer-flex {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
   }
 }
 
@@ -1002,9 +975,6 @@ a {
 
 @media screen and (min-width: 480px) {
   .left-part-footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     margin-bottom: 60px;
   }
 }
