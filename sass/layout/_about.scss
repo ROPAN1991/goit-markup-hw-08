@@ -1,6 +1,10 @@
 /* -------ABOUT------- */
 
 .section__section--no-padding-top {
+    @media screen and (max-width: 480px) {
+        display: none;
+        
+    }
     padding-top: 0px;
     @media screen and (min-width: 480px) {
         display: none;

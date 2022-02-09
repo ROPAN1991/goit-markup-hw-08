@@ -97,6 +97,7 @@ a {
 }
 
 .container {
+  width: 100%;
   padding-left: 15px;
   padding-right: 15px;
   margin-right: auto;
@@ -328,6 +329,12 @@ a {
   }
 }
 
+@media screen and (max-width: 480px) {
+  .all-contacts {
+    display: none;
+  }
+}
+
 @media screen and (min-width: 480px) {
   .all-contacts {
     display: none;
@@ -349,6 +356,12 @@ a {
 
 .header-nav {
   display: flex;
+}
+
+@media screen and (max-width: 480px) {
+  .header-nav {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 480px) {
@@ -511,17 +524,16 @@ a {
 
 /* -------HERO------- */
 .hero__title {
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+  text-align: center;
   margin-bottom: 30px;
 }
 
 @media (min-width: 480px) {
   .hero__title {
-    font-weight: 900;
     font-size: 26px;
     line-height: 1.61;
-    text-align: center;
-    letter-spacing: 0.06em;
-    color: var(--title-text-color);
   }
 }
 
@@ -530,20 +542,16 @@ a {
     font-weight: 900;
     font-size: 26px;
     line-height: 1.61;
-    text-align: center;
     letter-spacing: 0.06em;
-    color: var(--title-text-color);
   }
 }
 
 @media screen and (min-width: 1200px) {
   .hero__title {
-    font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
-    color: var(--title-text-color);
     display: flex;
     text-align: center;
     justify-content: center;
@@ -695,6 +703,12 @@ a {
 /* -------ABOUT------- */
 .section__section--no-padding-top {
   padding-top: 0px;
+}
+
+@media screen and (max-width: 480px) {
+  .section__section--no-padding-top {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 480px) {
@@ -949,6 +963,12 @@ a {
   background-color: var(--background-color);
   padding-top: 60px;
   padding-bottom: 60px;
+}
+
+@media screen and (max-width: 480px) {
+  .footer-flex {
+    text-align: center;
+  }
 }
 
 @media screen and (min-width: 480px) {
@@ -1305,11 +1325,6 @@ a {
 }
 
 /* --------------SUBSCRIBE----------------- */
-.subscribe-inputs {
-  display: flex;
-  flex-wrap: wrap;
-}
-
 @media screen and (min-width: 768px) {
   .subscribe-inputs {
     display: flex;
@@ -1647,6 +1662,12 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .subscribe-button {
     margin: 0 auto;
   }
 }

@@ -4,36 +4,33 @@
     // font-weight: 900;
     // font-size: 44px;
     // line-height: 1.36;
-    // letter-spacing: 0.06em;
+    letter-spacing: 0.06em;
     // text-transform: uppercase;
-    // color: var(--title-text-color);
+    color: var(--title-text-color);
     // display: flex;
-    // text-align: center;
+    text-align: center;
     // justify-content: center;
     margin-bottom: 30px;
+    @media screen and(max-width: 480px) {
+        
+    }
     @media (min-width: 480px) {
-        font-weight: 900;
         font-size: 26px;
         line-height: 1.61;
-        text-align: center;
-        letter-spacing: 0.06em;
-        color: var(--title-text-color);
+        
+        
     }
     @media screen and (min-width: 768px) {
         font-weight: 900;
         font-size: 26px;
         line-height: 1.61;
-        text-align: center;
         letter-spacing: 0.06em;
-        color: var(--title-text-color)
     }
     @media screen and (min-width: 1200px) {
-        font-weight: 900;
         font-size: 44px;
         line-height: 1.36;
         text-align: center;
         letter-spacing: 0.06em;
-        color: var(--title-text-color);
         display: flex;
         text-align: center;
         justify-content: center;
