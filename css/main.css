@@ -1177,16 +1177,11 @@ a {
   transition-property: transform;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-@media screen and (min-width: 480px) {
-  .card-text {
-    width: 450px;
-    padding-left: 24px;
-    padding-right: 24px;
-    padding-bottom: 77px;
-    padding-top: 77px;
-  }
+  width: 450px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 77px;
+  padding-top: 77px;
 }
 
 @media screen and (min-width: 768px) {
@@ -1209,13 +1204,6 @@ a {
   }
 }
 
-@media screen and (min-width: 480px) {
-  .portfolio-card-list {
-    display: flex;
-    flex-wrap: wrap;
-  }
-}
-
 @media screen and (min-width: 768px) {
   .portfolio-card-list {
     display: flex;
@@ -1225,15 +1213,11 @@ a {
 
 .card-item {
   border-radius: 4px;
+  margin-bottom: 30px;
 }
 
-@media screen and (min-width: 480px) {
-  .card-item {
-    margin-bottom: 30px;
-  }
-  .card-item:last-child {
-    margin-bottom: 0px;
-  }
+.card-item:last-child {
+  margin-bottom: 0px;
 }
 
 @media screen and (min-width: 768px) {
@@ -1289,13 +1273,8 @@ a {
 
 .filter {
   display: flex;
-}
-
-@media screen and (min-width: 480px) {
-  .filter {
-    flex-wrap: wrap;
-    margin-bottom: 50px;
-  }
+  flex-wrap: wrap;
+  margin-bottom: 50px;
 }
 
 @media screen and (min-width: 768px) {
