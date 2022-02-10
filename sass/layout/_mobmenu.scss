@@ -37,7 +37,7 @@ font-weight: 500;
 font-size: 40px;
 line-height: 1.17;
 letter-spacing: 0.02em;
-color: var(--primary-text-color);
+color: currentColor;
     &:hover,
     &:focus {
         color: var(--accent-text-color);
@@ -49,13 +49,9 @@ font-weight: 500;
 font-size: 34px;
 line-height: 1.17;
 letter-spacing: 0.02em;
-color: var(--other-text-color);
+color: var(--accent-text-color);
 display: block;
 margin-bottom: 32px;
-&:hover,
-&:focus {
-    color: var(--accent-text-color);
-}
 }
 
 .mob-connect__mail {
@@ -85,6 +81,7 @@ color: var(--other-text-color);
 
 .social-mob {
     display: flex;
+    flex-wrap: wrap;
     padding-bottom: 48px;
 }
 
