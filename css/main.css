@@ -392,7 +392,6 @@ a {
   margin-left: auto;
   border: none;
   background-color: var(--title-text-color);
-  padding-right: 15px;
 }
 
 @media screen and (min-width: 768px) {
