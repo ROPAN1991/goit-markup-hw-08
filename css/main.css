@@ -397,6 +397,7 @@ a {
   z-index: 1;
   padding-top: 10px;
   padding-bottom: 10px;
+  overflow-y: scroll;
 }
 
 .menu-button-closed {
