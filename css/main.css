@@ -362,13 +362,13 @@ a {
 @media screen and (min-width: 1200px) {
   .header-nav {
     margin-right: 305px;
+    flex-grow: 1;
   }
 }
 
 .header__container {
   align-items: center;
   display: flex;
-  justify-content: space-between;
 }
 
 .menu-open-btn {
@@ -895,6 +895,7 @@ a {
   .footer-flex {
     display: flex;
     margin: 0 auto;
+    justify-content: space-between;
   }
 }
 
@@ -912,6 +913,7 @@ a {
   .left-part-footer {
     margin-right: 70px;
     margin-bottom: 0px;
+    flex-grow: 1;
   }
 }
 
