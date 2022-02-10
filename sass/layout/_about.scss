@@ -3,6 +3,7 @@
 .section__section--no-padding-top {
     display: none;
     @media screen and (min-width: 1200px) {
+        padding-top: 0px;
         display: block;
     }
 }
