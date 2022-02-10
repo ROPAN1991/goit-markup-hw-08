@@ -1380,6 +1380,9 @@ a {
 }
 
 .check-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.16;
@@ -1396,8 +1399,7 @@ a {
   }
 }
 
-.check-text {
-  display: flex;
+.check-text .galochka {
   width: 16px;
   height: 15px;
   border: 2px solid var(--primary-text-color);
@@ -1426,7 +1428,7 @@ a {
   fill: transparent;
 }
 
-.policy-check:checked + .check-text span {
+.policy-check:checked + .check-text .galochka {
   border: none;
   background-color: var(--accent-text-color);
 }
