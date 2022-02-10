@@ -30,16 +30,6 @@
             }
 }
 
-// .all-contacts__icon {
-//     fill: currentColor;
-//     margin-right: 10px;
-//     @media screen and (min-width: 768px) {
-//         width: 14px;
-//         height: 10px;
-        
-//     }
-// }
-
 .all-contacts__icon--mail {
     fill: currentColor;
     @media screen and (min-width: 768px) {
@@ -69,6 +59,7 @@
         margin-right: 10px;
     }
 }
+
 .logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -167,8 +158,6 @@
 }
 
 .all-contacts {
-    // display: flex;
-    // align-items: baseline;
     @media screen and (max-width: 480px) {
         display: none;
     }
@@ -181,7 +170,6 @@
     }
     @media screen and(min-width: 1200px) {
         display: flex;
-        // align-items: baseline;
     }
 }
 
@@ -195,13 +183,11 @@
     @media screen and (min-width: 1200px) {
         margin-right: 305px;
     }
-    
 }
 
 .header__container {
     align-items: center;
     display: flex;
-    // justify-content: space-between;
 }
 
 .menu-open-btn {
@@ -212,6 +198,7 @@
         display: none;
     }
 }
+
 .burger {
     display: block;
 }
