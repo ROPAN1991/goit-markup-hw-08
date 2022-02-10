@@ -1,9 +1,6 @@
 /* --------------SUBSCRIBE----------------- */
 
 .subscribe-inputs {
-    
-    // display: flex;
-    // flex-wrap: wrap;
     @media screen and (min-width: 768px) {
         display: flex;
         flex-direction: column;
@@ -31,12 +28,10 @@
     }
     @media screen and (min-width: 1200px) {
         text-align: start;
-        
     }
 }
 
 .subscribe-input {
-    // width: 100%;
     width: 100%;
     margin-bottom: 20px;
     height: 50px;
