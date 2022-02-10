@@ -178,6 +178,7 @@ a {
     height: 12px;
     margin-right: 10px;
     display: flex;
+    justify-content: space-around;
   }
 }
 
@@ -209,6 +210,7 @@ a {
   color: var(--primary-text-color);
   padding-top: 24px;
   padding-bottom: 25px;
+  margin-right: 93px;
 }
 
 @media screen and (min-width: 480px) {
@@ -366,6 +368,7 @@ a {
 .header__container {
   align-items: center;
   display: flex;
+  justify-content: space-between;
 }
 
 .menu-open-btn {
@@ -1572,14 +1575,26 @@ a {
 }
 
 .portfolio-filter-button:last-child {
-  margin-right: 0px;
   margin-bottom: 0px;
+}
+
+.portfolio-filter-button:last-child {
+  margin-right: 0px;
 }
 
 @media screen and (min-width: 480px) {
   .portfolio-filter-button {
     margin-bottom: 15px;
   }
+}
+
+@media screen and (min-width: 768px) {
+  .portfolio-filter-button {
+    margin-bottom: 0px;
+  }
+}
+
+@media screen and (min-width: 480px) {
   .portfolio-filter-button:nth-last-child(-n+2) {
     margin-bottom: 0px;
   }

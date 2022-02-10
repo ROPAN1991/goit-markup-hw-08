@@ -42,7 +42,7 @@
         height: 12px;
         margin-right: 10px;
         display: flex;
-        
+        justify-content: space-around;
     }
 }
 
@@ -68,7 +68,7 @@
     color: var(--primary-text-color);
     padding-top: 24px;
     padding-bottom: 25px;
-    // margin-right: 93px;
+    margin-right: 93px;
     @media screen and (min-width: 480px) {
         padding-top: 16px;
         padding-bottom: 16px;
@@ -188,6 +188,7 @@
 .header__container {
     align-items: center;
     display: flex;
+    justify-content: space-between;
 }
 
 .menu-open-btn {
