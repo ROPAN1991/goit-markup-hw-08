@@ -9,33 +9,33 @@
 .footer-flex {
     text-align: center;
     @media screen and (min-width: 768px) {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: baseline;
-        justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-around;
     }
     @media screen and (min-width: 1200px) {
-        display: flex;
-        margin: 0 auto;
+    display: flex;
+    margin: 0 auto;
     }
 }
 
 .left-part-footer {
     @media screen and (min-width: 1200px) {
-        margin-right: 70px;
-        margin-bottom: 0px;
-        flex-grow: 1;
+    margin-right: 70px;
+    margin-bottom: 0px;
+    flex-grow: 1;
     }
 } 
 
 .invitation {
     margin-top: 60px;
     @media screen and (min-width: 768px) {
-        margin-top: 0px;
+    margin-top: 0px;
     }
     @media screen and (min-width: 1200px) {
-        margin-right: 93px;
-        margin-bottom: 0px;
+    margin-right: 93px;
+    margin-bottom: 0px;
     }
 
 }
@@ -47,9 +47,6 @@
     letter-spacing: 0.03em;
     color: var(--title-text-color);
     margin-bottom: 20px;
-    @media screen and (min-width: 480px) {
-        text-align: center;
-    }
     @media screen and (min-width: 1200px) {
         text-align: start;
     }

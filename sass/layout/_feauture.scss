@@ -12,9 +12,9 @@
     background-color: var(--title-text-color);
     }
     @media screen and (min-width: 1200px) {
-        display: flex;
-        flex-wrap: nowrap;
-        background-color: var(--title-text-color);        
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: var(--title-text-color);        
     }
 }
 
@@ -22,10 +22,10 @@
     margin-left: 30px;
     margin-bottom: 30px;
     @media screen and (min-width: 768px) {
-        flex-basis: calc((100% - 60px) / 2);
+    flex-basis: calc((100% - 60px) / 2);
     }
     @media screen and (min-wdith: 1200px) {
-        flex-basis: calc((100% - 120px) / 4);
+    flex-basis: calc((100% - 120px) / 4);
     }
 }
 

@@ -937,12 +937,6 @@ a {
   margin-bottom: 20px;
 }
 
-@media screen and (min-width: 480px) {
-  .invitation-title {
-    text-align: center;
-  }
-}
-
 @media screen and (min-width: 1200px) {
   .invitation-title {
     text-align: start;
