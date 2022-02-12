@@ -211,8 +211,8 @@ a {
   font-size: 24px;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
-  padding-top: 24px;
-  padding-bottom: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   line-height: 1.16;
 }
 
@@ -1082,19 +1082,6 @@ a {
   }
 }
 
-.portfolio-card-list {
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: -30px;
-  margin-bottom: -30px;
-}
-
-.card-item {
-  margin-left: 30px;
-  margin-bottom: 30px;
-  flex-basis: calc((100% - 30px) / 1);
-}
-
 @media screen and (min-width: 768px) {
   .card-item {
     flex-basis: calc((100% - 60px) / 2);
@@ -1137,6 +1124,12 @@ a {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 50px;
+}
+
+@media screen and (min-width: 468px) {
+  .filter {
+    margin-bottom: 40px;
+  }
 }
 
 @media screen and (min-width: 768px) {
