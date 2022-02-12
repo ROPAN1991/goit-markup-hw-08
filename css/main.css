@@ -411,10 +411,10 @@ a {
   font-size: 40px;
   line-height: 1.17;
   letter-spacing: 0.02em;
-  color: currentColor;
+  color: var(--primary-text-color);
 }
 
-.mob-menu-list__link:hover, .mob-menu-list__link:focus {
+.mob-menu-list__link--current {
   color: var(--accent-text-color);
 }
 
