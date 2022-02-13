@@ -5,6 +5,7 @@
     overflow: hidden;
 }
 
+
 .card-text {
     position: absolute;
     top: 0;
@@ -39,8 +40,19 @@
     }
 }
 
+.portfolio-card-list {
+    @media screen and (min-width: 768px) {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: -30px;
+        margin-bottom: -30px;
+    }
+}
+
 .card-item {
     @media screen and (min-width: 768px) {
+        margin-left: 30px;
+        margin-bottom: 30px;
         flex-basis: calc((100% - 60px) / 2);
     }
     @media screen and (min-width: 1200px) {
