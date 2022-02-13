@@ -90,6 +90,7 @@
 .filter {
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 40px;
     @media screen and (min-width: 468px) {
         margin-bottom: 40px;
     }
