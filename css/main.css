@@ -1129,6 +1129,8 @@ a {
 
 @media screen and (min-width: 480px) {
   .filter {
+    display: flex;
+    flex-wrap: wrap;
     margin-bottom: 40px;
   }
 }
